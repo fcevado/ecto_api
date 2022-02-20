@@ -23,7 +23,7 @@ defmodule EctoApi.MixProject do
 
   defp deps do
     [
-      {:ecto, "~> 3.6"},
+      {:ecto, github: "elixir-ecto/ecto", commit: "a931b4f"},
       {:tesla, "~> 1.4", optional: true},
       {:mint, "~> 1.3", optional: true},
       {:jason, "~> 1.2", optional: true},
